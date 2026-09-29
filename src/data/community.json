@@ -4,9 +4,9 @@
     "institution": {"name": "Nanjing University", "url": "https://www.nju.edu.cn/"}
   },
   "roles": {
-    "chair": {"en": "Project Chair", "zh": "项目主席"},
-    "maintainer": {"en": "Project Maintainer", "zh": "项目维护者"},
-    "contributor": {"en": "Project Contributor", "zh": "项目贡献者"}
+    "chair": {"en": "Chair", "zh": "项目主席"},
+    "maintainer": {"en": "Maintainer", "zh": "项目维护者"},
+    "contributor": {"en": "Contributor", "zh": "项目贡献者"}
   },
   "people": [
     {
