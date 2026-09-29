@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" fill="none">
+  <circle cx="100" cy="100" r="75" fill="var(--sky-tint, #e8f2eb)"/>
+  <g stroke="var(--ifm-color-primary, #087f72)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M58 63h29q13 0 13 13v50q0 14 14 14h26M58 141h29q13 0 13-13V76q0-13 13-13h28"/>
+    <path d="m132 55 9 8-9 8m0 61 9 8-9 8"/>
+    <rect x="26" y="44" width="40" height="38" rx="6" fill="var(--ifm-background-color, #fff)"/>
+    <path d="M36 56h20M36 65h13"/>
+    <rect x="26" y="122" width="40" height="38" rx="6" fill="var(--ifm-background-color, #fff)"/>
+    <path d="M36 134h20M36 143h13"/>
+    <rect x="140" y="43" width="35" height="38" rx="5" fill="var(--ifm-background-color, #fff)"/>
+    <path d="M150 53h15v12h-15zM152 73h11"/>
+    <rect x="135" y="133" width="43" height="20" rx="5" fill="var(--ifm-background-color, #fff)"/>
+    <path d="M143 133v-14h20v14" fill="#e8c48b" stroke="#c38b40"/>
+    <path d="M143 157h3m20 0h3"/>
+    <circle cx="100" cy="102" r="18" fill="var(--ifm-color-primary, #087f72)"/>
+    <path d="m91 102 6 6 12-13" stroke="var(--ifm-background-color, #fff)"/>
+  </g>
+  <circle cx="101" cy="32" r="4" fill="#c38b40"/>
+  <circle cx="95" cy="172" r="3" fill="var(--ifm-color-primary, #087f72)"/>
+</svg>

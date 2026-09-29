@@ -1,0 +1,11 @@
+{
+  "link.title.Docs": {"message": "文档"},
+  "link.title.Community": {"message": "社区"},
+  "link.title.More": {"message": "更多"},
+  "link.item.label.Tutorial": {"message": "教程"},
+  "link.item.label.GitHub Issues": {"message": "问题反馈"},
+  "link.item.label.Contributing": {"message": "参与贡献"},
+  "link.item.label.Committee": {"message": "社区委员会"},
+  "link.item.label.Contact Us": {"message": "联系我们"},
+  "link.item.label.GitHub": {"message": "GitHub"}
+}

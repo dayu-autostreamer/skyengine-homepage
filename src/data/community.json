@@ -1,0 +1,52 @@
+{
+  "origin": {
+    "laboratory": {"name": "Dislab", "url": "https://dislab.nju.edu.cn/"},
+    "institution": {"name": "Nanjing University", "url": "https://www.nju.edu.cn/"}
+  },
+  "roles": {
+    "chair": {"en": "Project Chair", "zh": "项目主席"},
+    "maintainer": {"en": "Project Maintainer", "zh": "项目维护者"},
+    "contributor": {"en": "Project Contributor", "zh": "项目贡献者"}
+  },
+  "people": [
+    {
+      "id": "lxie",
+      "name": {"en": "Lei Xie", "zh": "谢磊"},
+      "role": "chair",
+      "affiliation": {"en": "Nanjing University", "zh": "南京大学"},
+      "url": "https://cs.nju.edu.cn/lxie"
+    },
+    {
+      "id": "haowu",
+      "name": {"en": "Hao Wu", "zh": "吴昊"},
+      "role": "maintainer",
+      "affiliation": {"en": "Nanjing University", "zh": "南京大学"},
+      "url": "https://github.com/skyrimforest"
+    },
+    {
+      "id": "jyhou",
+      "name": {"en": "Junyu Hou", "zh": "侯君瑜"},
+      "role": "maintainer",
+      "affiliation": {"en": "Nanjing University", "zh": "南京大学"},
+      "url": "https://github.com/SiliconMangrove"
+    },
+    {
+      "id": "yshang",
+      "name": {"en": "Yesheng Hang", "zh": "杭业晟"},
+      "role": "contributor",
+      "affiliation": {"en": "Nanjing University", "zh": "南京大学"},
+      "url": "https://github.com/hangyesheng"
+    },
+    {
+      "id": "whzhou",
+      "name": {"en": "Wenhui Zhou", "zh": "周文晖"},
+      "role": "contributor",
+      "affiliation": {"en": "Nanjing University", "zh": "南京大学"},
+      "url": "https://github.com/zwh2119"
+    }
+  ],
+  "contacts": [
+    {"id": "lxie", "email": "lxie@nju.edu.cn"},
+    {"id": "haowu", "email": "wuhao@smail.nju.edu.cn"}
+  ]
+}

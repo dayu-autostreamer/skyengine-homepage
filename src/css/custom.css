@@ -1,0 +1,125 @@
+/* Dayu uses the Classic/Infima layout. Override colors, not its geometry. */
+:root {
+  --ifm-color-primary: #087f72;
+  --ifm-color-primary-dark: #077267;
+  --ifm-color-primary-darker: #076c61;
+  --ifm-color-primary-darkest: #065950;
+  --ifm-color-primary-light: #098c7d;
+  --ifm-color-primary-lighter: #099283;
+  --ifm-color-primary-lightest: #0aa594;
+  --ifm-font-color-base: #17312e;
+  --ifm-background-color: #fff;
+  --ifm-code-font-size: 95%;
+  --font-mono: var(--ifm-font-family-monospace);
+  --sky-paper: #f6f8f5;
+  --sky-muted: #5e726a;
+  --sky-subtle: #71857c;
+  --sky-tint: #e8f2eb;
+  --sky-line: #dce5dc;
+  --docusaurus-highlighted-code-line-bg: #087f7210;
+}
+
+html[data-theme='dark'] {
+  --ifm-color-primary: #84d5b5;
+  --ifm-color-primary-dark: #67cca3;
+  --ifm-color-primary-darker: #58c89a;
+  --ifm-color-primary-darkest: #39b080;
+  --ifm-color-primary-light: #a1dec7;
+  --ifm-color-primary-lighter: #b0e3d0;
+  --ifm-color-primary-lightest: #daf2e9;
+  --ifm-background-color: #102320;
+  --ifm-background-surface-color: #152d28;
+  --ifm-font-color-base: #e2eee6;
+  --ifm-menu-color: #bbcec3;
+  --ifm-navbar-background-color: #102320;
+  --sky-paper: #142a25;
+  --sky-muted: #a9c0b3;
+  --sky-subtle: #96b29f;
+  --sky-tint: #244334;
+  --sky-line: #30493e;
+  --docusaurus-highlighted-code-line-bg: #84d5b514;
+}
+
+img.avatar__photo {
+  width: var(--ifm-avatar-photo-size);
+  height: var(--ifm-avatar-photo-size);
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 999px;
+  background: var(--ifm-color-emphasis-200);
+}
+
+img.avatar__photo--lg {
+  width: var(--ifm-avatar-photo-size-lg);
+  height: var(--ifm-avatar-photo-size-lg);
+}
+
+img.avatar__photo--xl {
+  width: var(--ifm-avatar-photo-size-xl);
+  height: var(--ifm-avatar-photo-size-xl);
+}
+
+/* Keep blog author roles and affiliations fully visible. */
+.avatar__intro > small[title] {
+  display: block;
+  overflow: visible;
+  line-clamp: unset;
+  -webkit-line-clamp: unset;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #112c2b;
+  --ifm-footer-color: #bad0c5;
+  --ifm-footer-link-color: #bad0c5;
+  --ifm-footer-title-color: #edf4ef;
+}
+
+.footer__link-item:hover {
+  color: #a8e8cc;
+}
+
+/* These styles only serve the brand gallery and the empty blog page. */
+.eyebrow {
+  font: 600 10px var(--font-mono);
+  letter-spacing: 1.8px;
+  color: var(--ifm-color-primary);
+  display: block;
+}
+
+.empty-page {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.empty-page h1 {
+  margin: 20px 0;
+}
+
+.page-lead {
+  color: var(--sky-muted);
+  max-width: 680px;
+}
+
+:focus-visible {
+  outline: 3px solid var(--ifm-color-primary);
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .empty-page {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}

@@ -1,0 +1,126 @@
+.page {
+  padding-top: 74px;
+  padding-bottom: 90px;
+}
+.page > h1 {
+  font-size: clamp(32px, 4vw, 48px);
+  letter-spacing: -1.5px;
+  line-height: 1.2;
+  margin: 20px 0 24px;
+}
+.palette {
+  display: flex;
+  gap: 36px;
+  margin: 40px 0 55px;
+  flex-wrap: wrap;
+}
+.palette > div {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.palette > div > span {
+  height: 38px;
+  width: 38px;
+  border: 1px solid var(--sky-line);
+  border-radius: 50%;
+}
+.palette b {
+  display: block;
+  font-size: 11px;
+}
+.palette code {
+  font-size: 10px;
+  background: transparent;
+  padding: 0;
+}
+.assetGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.asset {
+  border: 1px solid var(--sky-line);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.preview {
+  height: 250px;
+  background: #f6f8f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 36px;
+}
+.preview img {
+  max-width: 85%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+.dark {
+  background: #112c2b;
+}
+.assetInfo {
+  padding: 19px 22px;
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: center;
+}
+.assetInfo h3 {
+  font-size: 14px;
+  margin: 0 0 4px;
+}
+.assetInfo span {
+  font-size: 10px;
+  color: var(--sky-muted);
+}
+.downloads {
+  display: flex;
+  gap: 14px;
+}
+.downloads a {
+  font: 11px var(--font-mono);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.notes {
+  border-top: 1px solid var(--sky-line);
+  margin-top: 55px;
+  padding-top: 36px;
+  max-width: 780px;
+}
+.notes h2 {
+  font-size: 24px;
+  letter-spacing: -0.6px;
+}
+.notes p {
+  font-size: 14px;
+  color: var(--sky-muted);
+  line-height: 1.9;
+}
+@media (max-width: 650px) {
+  .page {
+    padding-top: 50px;
+  }
+  .assetGrid {
+    grid-template-columns: 1fr;
+  }
+  .preview {
+    height: 220px;
+  }
+  .palette {
+    gap: 24px;
+  }
+  .palette > div {
+    min-width: 115px;
+  }
+  .assetInfo {
+    padding: 17px;
+  }
+  .downloads {
+    gap: 10px;
+  }
+}

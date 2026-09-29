@@ -1,0 +1,59 @@
+{
+  "name": "SkyEngine",
+  "colors": {
+    "jade": "#087f72",
+    "ink": "#17312e",
+    "amber": "#c38b40",
+    "paper": "#f6f8f5"
+  },
+  "assets": [
+    {
+      "variant": "icon",
+      "color": "color",
+      "svg": "img/skyengine-logo-icon.svg",
+      "png": "img/skyengine-logo-icon.png"
+    },
+    {
+      "variant": "text",
+      "color": "color",
+      "svg": "img/skyengine-logo-text.svg",
+      "png": "img/skyengine-logo-text.png"
+    },
+    {
+      "variant": "horizontal",
+      "color": "color",
+      "svg": "img/skyengine-logo-horizontal.svg",
+      "png": "img/skyengine-logo-horizontal.png"
+    },
+    {
+      "variant": "vertical",
+      "color": "color",
+      "svg": "img/skyengine-logo-vertical.svg",
+      "png": "img/skyengine-logo-vertical.png"
+    },
+    {
+      "variant": "icon",
+      "color": "white",
+      "svg": "img/skyengine-logo-icon-white.svg",
+      "png": "img/skyengine-logo-icon-white.png"
+    },
+    {
+      "variant": "text",
+      "color": "white",
+      "svg": "img/skyengine-logo-text-white.svg",
+      "png": "img/skyengine-logo-text-white.png"
+    },
+    {
+      "variant": "horizontal",
+      "color": "white",
+      "svg": "img/skyengine-logo-horizontal-white.svg",
+      "png": "img/skyengine-logo-horizontal-white.png"
+    },
+    {
+      "variant": "vertical",
+      "color": "white",
+      "svg": "img/skyengine-logo-vertical-white.svg",
+      "png": "img/skyengine-logo-vertical-white.png"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "skyengine-homepage",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The bilingual SkyEngine documentation and project website.",
+  "scripts": {
+    "start": "docusaurus start",
+    "start:zh": "docusaurus start --locale zh",
+    "build": "docusaurus build",
+    "serve": "docusaurus serve --host 127.0.0.1",
+    "clear": "docusaurus clear",
+    "write-translations": "docusaurus write-translations",
+    "brand": "node scripts/generate-brand.mjs",
+    "format": "prettier --write src scripts plugins docusaurus.config.js sidebars.js sidebarsCommunity.js",
+    "check:content": "node scripts/check-content.mjs",
+    "check:build": "node scripts/check-build.mjs",
+    "check": "npm run check:content && npm run build && npm run check:build"
+  },
+  "dependencies": {
+    "@docusaurus/core": "3.10.2",
+    "@docusaurus/plugin-content-docs": "3.10.2",
+    "@docusaurus/preset-classic": "3.10.2",
+    "@mdx-js/react": "^3.1.1",
+    "clsx": "^2.1.1",
+    "prism-react-renderer": "^2.4.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@docusaurus/module-type-aliases": "3.10.2",
+    "@docusaurus/types": "3.10.2",
+    "cheerio": "^1.2.0",
+    "fontkit": "^2.0.4",
+    "js-yaml": "4.3.2",
+    "prettier": "^3.9.9",
+    "sharp": "^0.34.5"
+  },
+  "engines": {
+    "node": ">=22.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 safari versions"
+    ]
+  }
+}

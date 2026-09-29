@@ -1,0 +1,48 @@
+---
+slug: welcome
+title: Welcome to SkyEngine
+description: Meet SkyEngine, an open platform for flexible manufacturing simulation, joint scheduling, and algorithm experiments.
+authors: [lxie, haowu, jyhou]
+tags: [welcome]
+---
+
+Welcome to **SkyEngine (天工)**, an open platform for **flexible manufacturing simulation and scheduling**.
+
+SkyEngine brings jobs, machines, automated guided vehicles (AGVs), and material flow into one factory environment. It connects algorithm decisions, simulation, visualization, and experiment analysis, helping researchers and engineering teams explore how production and transport work together.
+
+<!-- truncate -->
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import ThemedImage from '@theme/ThemedImage';
+
+<div style={{maxWidth: 420, margin: '2rem auto'}}>
+<ThemedImage
+  alt="SkyEngine logo"
+  style={{width: '100%', height: 'auto'}}
+  sources={{
+    light: useBaseUrl('/img/skyengine-logo-horizontal.svg'),
+    dark: useBaseUrl('/img/skyengine-logo-horizontal-white.svg'),
+  }}
+/>
+</div>
+
+## Production and transport in one simulation
+
+A machine finishing an operation is only part of the story. The workpiece may still need an available vehicle, a clear route, and buffer space at the next machine. Equipment failures and processing-time variation can change how a schedule unfolds.
+
+SkyEngine models these interactions so algorithms can be studied under shared factory constraints. In the grid factory, a job is complete only after the finished product has been delivered and unloaded. Processing, transport, and waiting all contribute to its completion time.
+
+## From factory scenarios to algorithm experiments
+
+- **Build factory scenarios.** Configure job operations, machine choices, AGVs, roads, material stations, and finite buffers. Explore the effects of processing-time variation and failures.
+- **Connect scheduling algorithms.** Combine replaceable components for process scheduling, task assignment, and path planning, or study policies that coordinate production and transport jointly.
+- **Run algorithm experiments.** Train supported policies, explore parameters, and test on datasets. Manage models and checkpoints, then compare completion rates and makespan across runs.
+- **Understand the results.** Observe machine and vehicle states, job progress, metrics, and events. Export run records for offline analysis and use replay to inspect what happened.
+
+The platform organizes runs and experiments, the factory enforces resource constraints and advances the simulation, and algorithms produce decisions from observations. This separation lets you change an algorithm while keeping the factory environment and interface.
+
+## Start exploring
+
+Begin with the [project overview](/docs/) and [installation guide](/docs/getting-started/installation/), then [configure a factory](/docs/user-guide/factory-configuration/) and [run your first simulation](/docs/user-guide/running-and-analysis/). When you are ready to compare algorithms, explore the [experiment workbench](/docs/experiments/platform/).
+
+The source code is available on [GitHub](https://github.com/dayu-autostreamer/skyengine). Visit the [SkyEngine community](/community/) to ask questions, share reproducible examples, and contribute algorithms, environments, or documentation. Welcome to SkyEngine!

@@ -1,0 +1,16 @@
+name: Documentation issue
+description: Report an incorrect, missing, or unclear document.
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page URL or source path
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What should be clarified or corrected?
+      description: Include the SkyEngine revision and relevant implementation evidence if applicable.
+    validations:
+      required: true

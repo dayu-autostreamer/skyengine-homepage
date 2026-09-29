@@ -1,0 +1,48 @@
+---
+slug: welcome
+title: 欢迎使用天工 SkyEngine
+description: 认识天工：面向柔性制造仿真、生产运输联合调度与算法实验的开放平台。
+authors: [lxie, haowu, jyhou]
+tags: [welcome]
+---
+
+欢迎使用 **SkyEngine（天工）**，一个面向**柔性制造仿真与调度**的开放平台。
+
+天工将作业、机器、自动导引车（AGV）与物料流转放在同一工厂场景中，连接算法决策、仿真执行、可视化和实验分析，帮助研究者与工程团队探索生产和运输如何协同运行。
+
+<!-- truncate -->
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import ThemedImage from '@theme/ThemedImage';
+
+<div style={{maxWidth: 420, margin: '2rem auto'}}>
+<ThemedImage
+  alt="天工 SkyEngine 标识"
+  style={{width: '100%', height: 'auto'}}
+  sources={{
+    light: useBaseUrl('/img/skyengine-logo-horizontal.svg'),
+    dark: useBaseUrl('/img/skyengine-logo-horizontal-white.svg'),
+  }}
+/>
+</div>
+
+## 在同一仿真中理解生产与运输
+
+机器完成一道工序，只是生产过程中的一个环节。工件还可能需要等待空闲车辆、可通行的路径，以及下一台机器的缓冲空间。设备故障与加工时间波动，也会改变调度方案的执行过程。
+
+天工将这些相互影响的因素纳入仿真，让不同算法可以在共同的工厂约束下开展研究。在网格工厂中，只有成品运送到目的地并完成卸货后，作业才计为完成；加工、运输和等待都会计入完成时间。
+
+## 从工厂场景到算法实验
+
+- **构建工厂场景。** 配置作业工序、可选机器、AGV、道路、物料站与有限缓冲，探索加工时间波动和故障带来的影响。
+- **接入调度算法。** 组合可替换的工序调度、任务分配与路径规划组件，或研究同时协调生产与运输的联合调度策略。
+- **开展算法实验。** 训练平台支持的策略，探索算法参数，在数据集上开展测试；管理模型与检查点，比较不同运行的作业完成率和总完工时间。
+- **分析运行结果。** 观察机器与车辆状态、作业进度、指标和事件，导出运行记录进行离线分析，并通过回放查看实际执行过程。
+
+平台负责组织运行和实验，工厂负责执行资源约束与推进仿真，算法根据观测产生决策。这样的分工让你可以在保留工厂环境和界面的情况下替换算法。
+
+## 开始探索
+
+你可以先阅读[项目概览](/docs/)和[安装指南](/docs/getting-started/installation/)，然后[配置工厂](/docs/user-guide/factory-configuration/)，[运行第一次仿真](/docs/user-guide/running-and-analysis/)。需要比较算法时，再进入[算法实验工作台](/docs/experiments/platform/)。
+
+项目源码托管在 [GitHub](https://github.com/dayu-autostreamer/skyengine)。欢迎通过[天工社区](/community/)交流问题、分享可复现的示例，参与算法、仿真环境或文档建设。欢迎来到天工！

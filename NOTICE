@@ -1,0 +1,17 @@
+SkyEngine documentation website
+
+SkyEngine is distributed under the Apache License 2.0. See LICENSE.
+
+The website architecture, homepage layout, and wave paths are adapted from
+dayu-autostreamer/dayu-autostreamer.github.io. The SkyEngine visual identity
+and manufacturing illustrations are newly authored.
+
+The Nanjing University logo is reproduced unmodified from the official Dislab
+website: https://dislab.nju.edu.cn/static/images/nju-logo-2.jpg
+It identifies the project's founding institution and retains its original colors
+and proportions.
+
+Manrope is used under the SIL Open Font License 1.1.
+See assets/brand/OFL.txt for the font's copyright and license.
+Source font: https://github.com/google/fonts/tree/main/ofl/manrope
+Manrope is used for the outlined logo wordmarks. The interface uses system fonts.

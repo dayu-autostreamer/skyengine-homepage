@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: SkyEngine system issues
+    url: https://github.com/dayu-autostreamer/skyengine/issues
+    about: Report simulation, algorithm, and platform runtime issues in the system repository.

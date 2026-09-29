@@ -1,0 +1,10 @@
+news:
+  label: News
+  description: Updates from the SkyEngine project.
+research:
+  label: Research
+  description: Manufacturing simulation and scheduling research.
+welcome:
+  label: Welcome
+  permalink: /welcome
+  description: An introduction to SkyEngine and its community.
