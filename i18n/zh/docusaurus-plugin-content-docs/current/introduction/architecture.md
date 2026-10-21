@@ -53,6 +53,6 @@ Vue 前端与 FastAPI 后端交互。工厂代理提供初始化、启动、暂�
 | `skyengine` | 平台、前端、仿真与实验基础设施 |
 | `SkyEngine-FJSP` | 工序调度算法及其 HTTP 容器服务 |
 | `SkyEngine-MAPF` | 多智能体路径规划算法及其 HTTP 容器服务 |
-| `skyengine-DFJSPT` | `dfjsp_t_rl` Python 包与联合调度训练组件 |
+| [skyengine-DFJSPT](https://github.com/SiliconMangrove/skyengine-DFJSPT) | `dfjsp_t_rl` Python 包与联合调度训练组件 |
 
-安装前，请向[项目维护者](/community/support/#project-contact)获取并准备单独交付的 `skyengine-DFJSPT` 包。
+安装前，请克隆公开的 [v0.3.0](https://github.com/SiliconMangrove/skyengine-DFJSPT/releases/tag/v0.3.0) 到 `skyengine` 同级目录。配套版本和使用说明已包含在算法仓库中。

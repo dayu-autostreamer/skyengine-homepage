@@ -5,6 +5,8 @@ sidebar_position: 2
 
 在“算法实验与优化平台”中选择 DFJSP-T 图策略与滚动联合调度，可创建训练任务，并将生成的模型用于测试和工厂回放。
 
+算法源码：[skyengine-DFJSPT](https://github.com/SiliconMangrove/skyengine-DFJSPT)，公开版本为 [v0.3.0](https://github.com/SiliconMangrove/skyengine-DFJSPT/releases/tag/v0.3.0)。配套环境和模型使用流程见算法仓库的[使用说明](https://github.com/SiliconMangrove/skyengine-DFJSPT/blob/main/docs/USAGE.md)。
+
 训练和超参数探索模板使用 `ctde_ppo` 的 `0.3.0` 版本。更新平台后，刷新页面并重新载入模板；旧实验定义不会自动更新，继续使用时请重新选择算法卡片并设置训练参数。
 
 模型根据作业、机器、车辆、道路和当前扰动联合选择生产与运输方案。在事件变化或检查间隔到达时重新决策，并持续更新交通路线。训练目标覆盖普通订单的加工、运输、等待及最终交付时间。

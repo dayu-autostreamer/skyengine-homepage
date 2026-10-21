@@ -53,6 +53,6 @@ Use independent training, validation/tuning, and final benchmark datasets. A com
 | `skyengine` | Platform, frontend, simulation, and experiment infrastructure |
 | `SkyEngine-FJSP` | Process scheduling algorithms and HTTP container services |
 | `SkyEngine-MAPF` | Multi-agent path planning algorithms and HTTP container services |
-| `skyengine-DFJSPT` | The `dfjsp_t_rl` Python package and joint scheduling training components |
+| [skyengine-DFJSPT](https://github.com/SiliconMangrove/skyengine-DFJSPT) | The `dfjsp_t_rl` Python package and joint scheduling training components |
 
-Obtain the separate `skyengine-DFJSPT` package from the [project maintainers](/community/support/#project-contact) and prepare it before installation.
+Clone the public [v0.3.0 release](https://github.com/SiliconMangrove/skyengine-DFJSPT/releases/tag/v0.3.0) as a sibling of `skyengine` before installation. The repository includes the supported version pair and usage instructions.

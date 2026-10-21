@@ -21,11 +21,12 @@ description: 准备依赖仓库，安装并启动天工平台。
 mkdir skyengine-workspace
 cd skyengine-workspace
 git clone https://github.com/dayu-autostreamer/skyengine.git
+git clone --branch v0.3.0 https://github.com/SiliconMangrove/skyengine-DFJSPT.git
 git clone https://github.com/skyrimforest/SkyEngine-FJSP.git
 git clone https://github.com/skyrimforest/SkyEngine-MAPF.git
 ```
 
-从项目交付包或维护者提供的授权仓库获取 `skyengine-DFJSPT`，放到与 `skyengine` 同级的位置，保留准确的小写目录名：
+公开的 [skyengine-DFJSPT 仓库](https://github.com/SiliconMangrove/skyengine-DFJSPT) 已提供 `v0.3.0`。将它放到与 `skyengine` 同级的位置，保留准确的小写目录名：
 
 ```text
 skyengine-workspace/
@@ -37,7 +38,7 @@ skyengine-workspace/
 ```
 
 :::important 安装前置条件
-当前 `install.sh` 会先检查 `skyengine-DFJSPT/dfjsp_t_rl/__init__.py`。只克隆公开的 `skyengine` 仓库，还不能完成这套安装流程。如果没有交付包，请先[联系维护者](/community/support/#project-contact)。
+当前 `install.sh` 会先检查 `skyengine-DFJSPT/dfjsp_t_rl/__init__.py`，请先完成上面的算法仓库克隆。`v0.3.0` 记录的配套 SkyEngine 提交为 `800fc454dc29124e95e04e9abc58db3d87fd0383`；固定版本安装命令见算法仓库的[中文首页](https://github.com/SiliconMangrove/skyengine-DFJSPT/blob/main/README.zh-CN.md)。
 :::
 
 ## 3. 构建算法镜像
