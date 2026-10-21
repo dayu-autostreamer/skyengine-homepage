@@ -21,11 +21,12 @@ The platform and the MA + PIBT test/tuning workflow support CPU operation. **CTD
 mkdir skyengine-workspace
 cd skyengine-workspace
 git clone https://github.com/dayu-autostreamer/skyengine.git
+git clone --branch v0.3.0 https://github.com/SiliconMangrove/skyengine-DFJSPT.git
 git clone https://github.com/skyrimforest/SkyEngine-FJSP.git
 git clone https://github.com/skyrimforest/SkyEngine-MAPF.git
 ```
 
-Obtain `skyengine-DFJSPT` from the project's delivery package or an authorized repository supplied by the maintainers. Place it next to `skyengine`, with that exact lowercase directory name:
+The public [skyengine-DFJSPT repository](https://github.com/SiliconMangrove/skyengine-DFJSPT) provides release `v0.3.0`. Keep it next to `skyengine`, with that exact lowercase directory name:
 
 ```text
 skyengine-workspace/
@@ -37,7 +38,7 @@ skyengine-workspace/
 ```
 
 :::important Installation prerequisite
-The current `install.sh` checks for `skyengine-DFJSPT/dfjsp_t_rl/__init__.py` before building. A clone of the public `skyengine` repository alone is not sufficient for this installation workflow. [Contact the maintainers](/community/support/#project-contact) if the delivery is unavailable.
+The current `install.sh` checks for `skyengine-DFJSPT/dfjsp_t_rl/__init__.py` before building. Complete the algorithm clone above before installing. Release `v0.3.0` records SkyEngine commit `800fc454dc29124e95e04e9abc58db3d87fd0383` as its companion version; use the algorithm repository's [quick start](https://github.com/SiliconMangrove/skyengine-DFJSPT#quick-start-linux--wsl2) for the pinned installation.
 :::
 
 ## 3. Build the algorithm images

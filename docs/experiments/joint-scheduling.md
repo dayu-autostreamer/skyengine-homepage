@@ -5,6 +5,8 @@ sidebar_position: 2
 
 Select the DFJSP-T graph policy and rolling joint scheduling in the experiment workbench. Models produced by training can be used for testing and factory replay.
 
+Source code: [skyengine-DFJSPT](https://github.com/SiliconMangrove/skyengine-DFJSPT), release [v0.3.0](https://github.com/SiliconMangrove/skyengine-DFJSPT/releases/tag/v0.3.0). Follow its [usage guide](https://github.com/SiliconMangrove/skyengine-DFJSPT/blob/main/docs/USAGE.md) for the companion environment and model workflow.
+
 The training and parameter-exploration templates use `ctde_ppo` version `0.3.0`. Existing experiment definitions do not automatically adopt new templates. After upgrading the system, reload a template or reselect the algorithm and review parameters.
 
 ## What the model decides
